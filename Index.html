@@ -12,7 +12,7 @@
     <p>Conceptually, you start at the root of a tree; the tree probably has some good leaves and some bad leaves, though it may be that the leaves are all good or all bad. You want to get to a good leaf. At each node, beginning with the root, you choose one of its children to move to, and you keep this up until you get to a leaf.</p>
     <p>Suppose you get to a bad leaf. You can backtrack to continue the search for a good leaf by revoking your most recent choice, and trying out the next option in that set of options. If you run out of options, revoke the choice that got you here, and try another choice at that node. If you end up at the root with no options left, there are no good leaves to be found.</p>
     <p>This need an example</p>
-    <img src="../../Image/Root.png" alt="Image ">
+    <img src="Root.png" alt="Image ">
    <ol>
     
   <li> Starting at Root, your options are A and B. You choose A. </li>  <br>
@@ -449,22 +449,22 @@
 </p>
    <table  border="1px"  cellpadding="3px" cellspacing="6px" align="center" bgcolor=#dddddd >
     <tr>
-      <td width="44"><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"><img src="../../Image/black-ball.png" alt="black-ball"></td>
+      <td width="44"><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"><img src="black-ball.png" alt="black-ball"></td>
       <td width="44"></td>
-      <td width="44"> <img src="../../Image/white-ball.png" alt="white-ball"></td>
-      <td width="44"><img src="../../Image/white-ball.png" alt="white-ball"></td>
+      <td width="44"> <img src="white-ball.png" alt="white-ball"></td>
+      <td width="44"><img src="white-ball.png" alt="white-ball"></td>
    </tr>
    </table>
     <p>The goal is to reverse the positions of the marbles:</p>
 
      <table  border="1px"  cellpadding="3px" cellspacing="6px" align="center" bgcolor=#dddddd >
     <tr>
-      <td width="44"> <img src="../../Image/white-ball.png" alt="white-ball"></td>
-      <td width="44"><img src="../../Image/white-ball.png" alt="white-ball"></td>
+      <td width="44"> <img src="white-ball.png" alt="white-ball"></td>
+      <td width="44"><img src="white-ball.png" alt="white-ball"></td>
        <td width="44"></td>
-       <td width="44"><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"><img src="../../Image/black-ball.png" alt="black-ball"></td>
+       <td width="44"><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"><img src="black-ball.png" alt="black-ball"></td>
    </tr>
    </table>
     <p>The black marbles can only move to the right, and the white marbles can only move to the left (no backing up). At each move, a marble can either:</p>
@@ -481,11 +481,11 @@
       <td><b>  Starting position:</b></td>
       <td>
       <table  cellpadding="3px" cellspacing="6px" border="1" align="center">
-      <td width="44"   bgcolor=#dddddd> <img src="../../Image/white-ball.png" alt="white-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/white-ball.png" alt="white-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/black-ball.png" alt="black-ball"></td>
+      <td width="44"   bgcolor=#dddddd> <img src="white-ball.png" alt="white-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="white-ball.png" alt="white-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="black-ball.png" alt="black-ball"></td>
       <td ></td>
-      <td width="44"  bgcolor=#dddddd ><img src="../../Image/black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd ><img src="black-ball.png" alt="black-ball"></td>
      </table>
      </td>
      </tr>
@@ -495,11 +495,11 @@
       <td><b>Black moves ahead:</b></td>
       <td>
       <table  cellpadding="3px" cellspacing="6px" border="1" align="center">
-      <td width="44"   bgcolor=#dddddd> <img src="../../Image/white-ball.png" alt="white-ball"></td>
+      <td width="44"   bgcolor=#dddddd> <img src="white-ball.png" alt="white-ball"></td>
       <td ></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/white-ball.png" alt="white-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"  bgcolor=#dddddd ><img src="../../Image/black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="white-ball.png" alt="white-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd ><img src="black-ball.png" alt="black-ball"></td>
      </table>
      </td>
      </tr>
@@ -508,11 +508,11 @@
       <td><b>White jumps:</b></td>
       <td>
       <table  cellpadding="3px" cellspacing="6px" border="1" align="center">
-     <td width="44"  bgcolor=#dddddd ><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/white-ball.png" alt="white-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/black-ball.png" alt="black-ball"></td>
+     <td width="44"  bgcolor=#dddddd ><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="white-ball.png" alt="white-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="black-ball.png" alt="black-ball"></td>
       <td ></td>
-      <td width="44"   bgcolor=#dddddd> <img src="../../Image/white-ball.png" alt="white-ball"></td>
+      <td width="44"   bgcolor=#dddddd> <img src="white-ball.png" alt="white-ball"></td>
       </table>
      </td>
      </tr>
@@ -521,11 +521,11 @@
       <td><b>Black moves ahead:</b></td>
       <td>
       <table  cellpadding="3px" cellspacing="6px" border="1" align="center">
-      <td width="44"  bgcolor=#dddddd ><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"   bgcolor=#dddddd> <img src="../../Image/white-ball.png" alt="white-ball"></td>
+      <td width="44"  bgcolor=#dddddd ><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"   bgcolor=#dddddd> <img src="white-ball.png" alt="white-ball"></td>
       <td ></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/white-ball.png" alt="white-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="white-ball.png" alt="white-ball"></td>
       
       
      </table>
@@ -536,10 +536,10 @@
       <td>
       <table  cellpadding="3px" cellspacing="6px" border="1" align="center">
       <td ></td>
-      <td width="44"   bgcolor=#dddddd> <img src="../../Image/white-ball.png" alt="white-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"  bgcolor=#dddddd ><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/white-ball.png" alt="white-ball"></td>
+      <td width="44"   bgcolor=#dddddd> <img src="white-ball.png" alt="white-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd ><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="white-ball.png" alt="white-ball"></td>
      </table>
      </td>
      </tr>
@@ -549,10 +549,10 @@
       <td>
       <table  cellpadding="3px" cellspacing="6px" border="1" align="center">
       <td ></td>
-      <td width="44"   bgcolor=#dddddd> <img src="../../Image/white-ball.png" alt="white-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"  bgcolor=#dddddd ><img src="../../Image/black-ball.png" alt="black-ball"></td>
-      <td width="44"  bgcolor=#dddddd><img src="../../Image/white-ball.png" alt="white-ball"></td>
+      <td width="44"   bgcolor=#dddddd> <img src="white-ball.png" alt="white-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd ><img src="black-ball.png" alt="black-ball"></td>
+      <td width="44"  bgcolor=#dddddd><img src="white-ball.png" alt="white-ball"></td>
      </table>
      </td>
      </tr>
